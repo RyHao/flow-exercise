@@ -1,0 +1,17 @@
+{
+  "name": "flow-exercise",
+  "version": "0.0.0",
+  "main": "src/app.js",
+  "author": "RyHao <kinghao914@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "flow-bin": "^0.44.0"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  }
+}
